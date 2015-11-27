@@ -1,0 +1,23 @@
+&   -  bitwise and
+
+|   -  bitwise or
+
+^   -  bitwise xor
+
+~   -  bitwise not(compliment)
+
+<<  -  bitwise shift left (multiplies by 2)
+
+>>  -  bitwise shift right (divides by 2)
+	Logical - Fill with 0's on the left
+	Arithmetic - Fill with most significant bit
+		good for 2's compliment arithmetic
+	signed action is not defined. generally arithmetic
+	unsigned is logical shift
+
+!  - 0 -> z, anything else is 1
+
+If you need subtraction eg 'x-y'
+33 + ~n is actually 32+(1+~n) = 32+(-n) = 32 - n
+
+negative of the x is ~x +1
